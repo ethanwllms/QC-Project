@@ -1,8 +1,8 @@
 users = {
 	'tester01': {
-		'password': 'password1234'
+		'password': ''
 	},
 	'user62': {
-		'password': 'secret95'
+		'password': ''
 	}
 }

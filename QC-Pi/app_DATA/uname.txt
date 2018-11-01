@@ -1,4 +1,0 @@
-tester01
-password1234
-user62
-secret95
