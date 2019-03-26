@@ -24,10 +24,10 @@ def imagePreview():
     camera.stop_preview()
     camera.close()
 
-#def imageArea1()
+#def imageArea1() #Setting configurations for zoom(dig) for most specific area
 
 
-#def imageArea2()
+#def imageArea2() #Setting configurations for zoom(dig) for middle specific area
 
 
-#def imageArea3()
+#def imageArea3() #Setting configurations for zoom(dig) for least specific area
