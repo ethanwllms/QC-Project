@@ -15,14 +15,13 @@ def createDIR(directory):
 		print ('Error: Creating directory. ' + directory)
 
 def nameDIR():
-    jobIDNumber = raw_input("Please scan or enter job ID (or Press Q to quit): ")
-    if (jobIDNumber == 'q') or (jobIDNumber == 'Q'):
+	jobIDNumber = input("Please scan or enter job ID (or Press Q to quit): ")
+	if (jobIDNumber == 'q') or (jobIDNumber == 'Q'):
 		jobIDNumber = 'FALSE'
 		return jobIDNumber
-    year = findCurrentYear()
-    #dirPathPART = "Documents/" + year + "/" + jobIDNumber		#Needs to be
-    dirPathPART = "/mnt/usbstorage/" + year + "/" + jobIDNumber
-    testDIRPathPART = "Test/" + jobIDNumber
-    createDIR(jobIDNumber)
-    print (dirPathPART)		#Test PRINT
-    return jobIDNumber
+	year = findCurrentYear()
+	dirPathPART = "/mnt/usbstorage/" + year + "/" + jobIDNumber
+	testDIRPathPART = "Test/" + jobIDNumber
+	createDIR(jobIDNumber)
+	print (dirPathPART)		#Test PRINT
+	return jobIDNumber
