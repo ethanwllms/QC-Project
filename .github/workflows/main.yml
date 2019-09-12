@@ -24,4 +24,4 @@ jobs:
     - name: Pushing Image
       run:
         echo pushing image...
-        docker push ethanwllms/qc_project..latest
+        docker push ethanwllms/qc_project-latest
