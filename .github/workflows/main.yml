@@ -20,5 +20,5 @@ jobs:
     - name: Build image
       run: echo building image...
       working-directory: ../QC-Project/QC-Pi
-      uses: ./QC-Project/QC-Pi
+      uses: /QC-Project/QC-Pi
         
