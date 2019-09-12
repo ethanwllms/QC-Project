@@ -1,0 +1,20 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Git Install
+      run: echo Installing Git...
+      run: apt install git
+    - name: Install of Pi/Python Component packages
+      run: 
+        echo Installing Python packages...
+        pip install keyboard
+        apt-get install python-picamera python3-picamera
+      uses: /
+        
