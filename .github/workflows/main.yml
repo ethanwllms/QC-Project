@@ -21,4 +21,7 @@ jobs:
       run: 
         echo building image...
         docker build github.com/ethanwllms/QC-Project/QC-Pi
+    - name: Pushing Image
+      run:
+        echo pushing image...
         docker push ethanwllms/qc_project-latest
