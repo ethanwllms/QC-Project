@@ -9,8 +9,9 @@ jobs:
     
     steps:
     - name: Git Install
-      run: echo Installing Git...
-      run: apt install git
+      run: 
+        echo Installing Git...
+        apt install git
     - name: Install of Pi/Python Component packages
       run: 
         echo Installing Python packages...
