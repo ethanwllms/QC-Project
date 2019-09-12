@@ -19,4 +19,4 @@ jobs:
         apt-get install python-picamera python3-picamera
     - name: Build image
       run: echo building image...
-      docker build github.com/ethanwllms/QC-Project/QC-Pi
+      run: docker build github.com/ethanwllms/QC-Project/QC-Pi
