@@ -16,5 +16,5 @@ jobs:
         echo Installing Python packages...
         pip install keyboard
         apt-get install python-picamera python3-picamera
-      uses: /
+      uses: ../QC-Project/QC-Pi
         
